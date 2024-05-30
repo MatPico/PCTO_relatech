@@ -1,0 +1,9 @@
+@for (parola of item;track item) {
+    <a routerLink="Prodotti">
+            <p-card [header]="parola.titolo" styleClass="card">
+            <ng-template pTemplate="header">
+                <img class="Icona" [src]="parola.img">
+            </ng-template>
+        </p-card> 
+    </a>
+}
