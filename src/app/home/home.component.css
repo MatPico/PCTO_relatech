@@ -3,7 +3,7 @@
     margin: 2%;
     text-align: center;
     float: inline-start;
-
+    box-shadow: 2px 2px 5px 5px rgb(222, 221, 221) inset;
 }
 
 .Icona {
